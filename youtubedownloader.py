@@ -16,7 +16,7 @@ print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Title of the Video~~~~~~~~~~~~~~~~~~~~~~
 print(video.title)
 print("Wanna download Video Thumbnail here is it😁:")
 print(video.thumbnail_url)
-print("Downloading Video")
+print("Downloading Video😎")
 video = video.streams.get_highest_resolution()
 video.download()
 
